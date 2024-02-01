@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script src="script.js"></script>
+    <title>Biodata</title>
+</head>
+<body>
+    <nav> 
+        <div class="brand">
+            <div id="name"><b>Cheese</b>Roll</div>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Packages</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <main>
+            <div class="main-content">
+                <h1><b>Cheese</b>Roll Mozza</h1>
+                <h2>Rasanya enak Toppingnya Lumer!</h2>
+
+                <img src="Keju aroma.jpg" alt="cheese">
+                <p><q>Dibuat dari kulit lumpia pilihan</q></p>
+            </div>
+
+            <div class="profil">
+                <img src="bromo-12.png" alt="profil">
+                <p><b>Wildan Habibi Rizqullah</b> <br>Crew Cheese Roll, 19</p>
+            </div>
+
+            <div class="our-package">
+                <div class="package">
+                    <h2>Our Packages</h2>
+                </div>
+                <div class="list-package">
+                <div class="pcs1">
+                    <h4>Package 1</h4>
+                    <p class="p1">3 Pcs Cheese Roll with Free Topping</p>
+                    <h5 class="order1"><a href="#">Order Now!</a></h5>
+                </div>
+                <div class="pcs2">
+                    <h4>Package 2</h4>
+                    <p class="p2">5 Pcs Cheese Roll with Free Topping</p>
+                    <h5 class="order1"><a href="#">Order Now!</a></h5>
+                </div>
+                <div class="pcs3">
+                    <h4>Package 3</h4>
+                    <p class="p3">9 Pcs Cheese Roll with Free Topping</p>
+                    <h5 class="order1"><a href="#">Order Now!</a></h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="form">
+                <aside>
+                    <div class="form-order">
+                        <form id="contactForm" action="order" method="post" onsubmit="return validateForm()">
+                            <h4>Contact Us</h4>
+                            <br>
+                            <label for="nama">Nama</label>
+                            <br>
+                            <input type="text" id="nama">
+                            <span id="namaError" class="error"></span>
+                            <br>
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" id="email">
+                            <span id="emailError" class="error"></span>
+                            <br>
+                            <label for="nope">Nomor Telepon</label>
+                            <br>
+                            <input type="number" id="nope">
+                            <span id="nopeError" class="error"></span>
+                            <br>
+                            <br>
+                            <button type="submit">Submit</button> 
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
